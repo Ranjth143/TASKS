@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Margin Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        nav {
+            margin-top: 60px; /* Height of the fixed header */
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 40px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            scroll-margin-top: 75px; /* Space above section when scrolled into view */
+        }
+
+        .section h2 {
+            margin-top: 0;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 50%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Scroll Margin Example</h1>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#section1">Section 1</a>
+            <a href="#section2">Section 2</a>
+            <a href="#section3">Section 3</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="section" id="section1">
+            <div class="image-container">
+                <h2>Manu Bhaker</h2>
+                <img src="https://res.cloudinary.com/dkrgzfoev/image/upload/v1722937847/s0d4s8tbffuvrcmqbhrz_urbbek.avif" alt="Manu Bhaker">
+            </div>
+            <h2>Section 1</h2>
+            <p>Manu Bhaker</p>
+            <p>With a bronze medal at the Paris 2024 Olympics, gold medals at the World Championships, Asian Games, Commonwealth Games and Youth Olympic Games, Manu Bhaker has become the most successful Indian woman shooter in history at a very young age.</p>
+        </div>
+
+        <div class="section" id="section2">
+            <h2>Section 2</h2>
+            <p>Manu Bhaker became the first Indian woman to win an Olympic medal in shooting with a bronze at Paris 2024 in the women’s 10m air pistol event. It came a day after she became the first female shooter to reach an Olympic final in an individual event in 20 years. A pistol malfunction had denied Manu Bhaker a shot at a medal at the Tokyo 2020 Olympics in the same event.</p>
+            
+        </div>
+
+        <div class="section" id="section3">
+            <h2>Section 3</h2>
+            <p>Leading the outstanding Indian contingent with the tricolour in my hands with millions around the world watching is a truly humbling opportunity and one that I will cherish forever. I am grateful to The IOA for considering me worthy of this honour, and I look forward to raising the Indian flag with immense pride. Jai Hind!.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>

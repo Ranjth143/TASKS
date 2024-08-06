@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Example - Athlete Events</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        .note {
+            font-size: 0.9em;
+            color: #555;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Athlete Events</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Athlete</th>
+                    <th>Event</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Manu Bhaker</td>
+                    <td>Women's 10m air pistol</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Manu Bhaker-Sarabjot Singh</td>
+                    <td>Mixed team 10m air pistol</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Swapnil Kusale</td>
+                    <td>Men's 50m rifle 3 positions</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note">
+            <p>The box model consists of margins, borders, padding, and content.</p>
+        </div>
+    </div>
+</body>
+</html>

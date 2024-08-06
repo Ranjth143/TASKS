@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #0072ff, #00c6ff, #cc2b5e, #753a88);
+    }
+
+    .container {
+      display: flex;
+      width: 70%;
+      max-width: 1000px;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .login-form, .illustration {
+      width: 80%;
+      padding: 70%px;
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .login-form h1 {
+      font-size: 2em;
+      color: #ff85a1;
+    }
+
+    .login-form p {
+      margin-top: 15px;
+      color: #444;
+    }
+
+    .login-form h2 {
+      font-size: 2.5em;
+      margin: 20px 0;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+    }
+
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #888;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .forgot-password {
+      display: block;
+      margin-top: 5px;
+      text-align: right;
+      color: #888;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+
+    .login-button {
+      width: 100%;
+      padding: 10px;
+      background-color: #ff85a1;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .login-button:hover {
+      background-color: #ff6378;
+    }
+
+    .social-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .social-button {
+      width: 30%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+    }
+
+    .google {
+      background-color: #db4437;
+    }
+
+    .github {
+      background-color: #333;
+    }
+
+    .facebook {
+      background-color: #3b5998;
+    }
+
+    .sign-up {
+      color: #ff85a1;
+      text-decoration: none;
+    }
+
+    .sign-up:hover {
+      text-decoration: underline;
+    }
+
+    .illustration {
+      background-color: #f0f5fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .illustration img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-form">
+      <h1>Logo Here</h1>
+      <p>Welcome back !!!</p>
+      <h2>Log In</h2>
+      <form>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="login@gmail.com">
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Password">
+          <a href="#" class="forgot-password">Forgot Password?</a>
+        </div>
+        <button type="submit" class="login-button">Login</button>
+      </form>
+      <p>or continue with</p>
+      <div class="social-buttons">
+        <button class="social-button google">Google</button>
+        <button class="social-button github">GitHub</button>
+        <button class="social-button facebook">Facebook</button>
+      </div>
+      <p>Don't have an account yet? <a href="#" class="sign-up">Sign up for free</a></p>
+    </div>
+    <div class="illustration">
+      <img src="https://res.cloudinary.com/dkrgzfoev/image/upload/v1722837673/images06_rlehah.jpg" alt="Illustration">
+    </div>
+  </div>
+</body>
+</html>
+ 

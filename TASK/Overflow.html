@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow Property Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 300px;
+            height: 200px;
+            border: 1px solid #333;
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 10px;
+            overflow: auto; /* Scrollbars will appear if content overflows */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .content {
+            width: 600px; /* Content wider than container */
+            height: 400px; /* Content taller than container */
+            background-color: #eaeaea;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Overflow Property Example</h1>
+    <p>MAPS IN JAVA </p>
+    <div class="container">
+        <div class="content">
+            <h2>MAPS</h2>
+            <p>Map is an interface , which belongs to java.util package.</p>
+            <p>Whenever we want to store upon key and value then we should go for MAP.</p>
+            <h2>Features of Map</h2>
+            <p>Size is dynamic.</p>
+            <p>It  can store heterogenous type of data.</p>
+            <p>It stores the elements upon keys and values.</p>
+            <p>It cannot have duplicates keys. </p>
+            <p>We can have duplicates Values.</p>
+        </div>
+    </div>
+</body>
+</html>

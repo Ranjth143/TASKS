@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB and RGBA Color Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .color-sample {
+            width: 50px;
+            height: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>RGB Color</th>
+            <th>RGBA Code</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="color-sample" style="background-color: rgb(255, 0, 0);"></div>
+                rgb(255, 0, 0)
+            </td>
+            <td>
+                <div class="color-sample" style="background-color: rgba(255, 0, 0, 1);"></div>
+                rgba(255, 0, 0, 1)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="color-sample" style="background-color: rgb(0, 255, 0);"></div>
+                rgb(0, 255, 0)
+            </td>
+            <td>
+                <div class="color-sample" style="background-color: rgba(0, 255, 0, 0.8);"></div>
+                rgba(0, 255, 0, 0.8)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="color-sample" style="background-color: rgb(0, 0, 255);"></div>
+                rgb(0, 0, 255)
+            </td>
+            <td>
+                <div class="color-sample" style="background-color: rgba(0, 0, 255, 0.6);"></div>
+                rgba(0, 0, 255, 0.6)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="color-sample" style="background-color: rgb(255, 255, 0);"></div>
+                rgb(255, 255, 0)
+            </td>
+            <td>
+                <div class="color-sample" style="background-color: rgba(255, 255, 0, 0.4);"></div>
+                rgba(255, 255, 0, 0.4)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="color-sample" style="background-color: rgb(0, 255, 255);"></div>
+                rgb(0, 255, 255)
+            </td>
+            <td>
+                <div class="color-sample" style="background-color: rgba(0, 255, 255, 0.2);"></div>
+                rgba(0, 255, 255, 0.2)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="color-sample" style="background-color: rgb(255, 0, 255);"></div>
+                rgb(255, 0, 255)
+            </td>
+            <td>
+                <div class="color-sample" style="background-color: rgba(255, 0, 255, 1);"></div>
+                rgba(255, 0, 255, 1)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="color-sample" style="background-color: rgb(128, 0, 0);"></div>
+                rgb(128, 0, 0)
+            </td>
+            <td>
+                <div class="color-sample" style="background-color: rgba(128, 0, 0, 0.8);"></div>
+                rgba(128, 0, 0, 0.8)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="color-sample" style="background-color: rgb(0, 128, 0);"></div>
+                rgb(0, 128, 0)
+            </td>
+            <td>
+                <div class="color-sample" style="background-color: rgba(0, 128, 0, 0.6);"></div>
+                rgba(0, 128, 0, 0.6)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="color-sample" style="background-color: rgb(0, 0, 128);"></div>
+                rgb(0, 0, 128)
+            </td>
+            <td>
+                <div class="color-sample" style="background-color: rgba(0, 0, 128, 0.4);"></div>
+                rgba(0, 0, 128, 0.4)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="color-sample" style="background-color: rgb(128, 128, 0);"></div>
+                rgb(128, 128, 0)
+            </td>
+            <td>
+                <div class="color-sample" style="background-color: rgba(128, 128, 0, 0.2);"></div>
+                rgba(128, 128, 0, 0.2)
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
